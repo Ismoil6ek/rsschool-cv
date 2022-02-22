@@ -15,7 +15,7 @@
 
 **About myself:**
 
-Currently i'm studying in rs-cchool and at university
+Currently i'm studying at RS-School and at Inha University
 
 ---
 **Skills and Proficiency:**
