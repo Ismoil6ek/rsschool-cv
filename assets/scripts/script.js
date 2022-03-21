@@ -90,14 +90,6 @@ function parallaxHover(el, parent, intensity) {
         }
 
     }
-
-    $parent.on('mousemove', el, function(e) {
-        self.perspective(e, this);
-    });
-
-    $parent.on('mouseleave', el, function(e) {
-        self.anim(this, self.getTransforms(this)[0], self.getTransforms(this)[1], 0.3);
-    });
 }
 
 parallaxHover('.parallax-card', '.parallax-perspective', 8);

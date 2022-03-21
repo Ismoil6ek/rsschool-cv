@@ -4,8 +4,13 @@ body {
     color: rgb(119, 119, 119);
 }
 
+:root {
+    --main-color: #f8f9fa;
+}
+
 * {
     font-family: monospace;
+    box-sizing: border-box;
 }
 
 .navbar-links {
@@ -14,6 +19,7 @@ body {
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 
@@ -36,6 +42,7 @@ ul {
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    margin: 0 auto;
 }
 
 .ContainerTitle {
@@ -60,24 +67,23 @@ html {
 }
 
 section {
-    height: 80vh;
+    height: 79vh;
 }
 
 
 /* header */
 
 header {
-    right: -20px;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
     display: flex;
-    top: 0;
-    padding: 20px;
+    flex-wrap: wrap;
+    padding: 5px;
     z-index: 1000;
     justify-content: center;
     align-items: center;
     background: rgb(24, 24, 24);
-    align-self: center;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 .navbar {
@@ -593,11 +599,21 @@ video {
 .portfolioLink {
     letter-spacing: 10px;
     margin: 0;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .portfolioText {
     text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 60px;
 }
 
 .social-links {
@@ -635,7 +651,7 @@ video {
     font-size: 35.2941176471px;
     line-height: 60px;
     vertical-align: middle;
-    margin: 15px;
+    margin: 11.5px;
 }
 
 .social-links .instagram {
@@ -688,8 +704,8 @@ img.telephone {
 /* footer */
 
 footer {
-    margin: 0 auto;
-    width: 1200px;
+    margin: 10px auto;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -705,7 +721,6 @@ footer {
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
     justify-content: center;
     align-items: center;
     position: relative;
