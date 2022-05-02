@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+
+    <title>CV</title>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- local css sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li class="navbar-links"><a class="nav-link" onclick="change(0)" href="#about"> About </a></li>
+                <li class="navbar-links"><a class="nav-link" onclick="change(1)" href="#work"> Work Experience </a></li>
+                <li class="navbar-links"><a class="nav-link" onclick="change(2)" href="#projects"> Projects </a></li>
+                <li class="navbar-links"><a class="nav-link" onclick="change(3)" href="#educationAndLanguages"> Education & Languages </a></li>
+                <li class="navbar-links"><a class="nav-link" onclick="change(4)" href="#codeskills"> Code & Skills </a></li>
+                <li class="navbar-links"><a class="nav-link" onclick="change(5)" href="#contact"> Contact me </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main body -->
+    <main>
+
+        <!-- About me #about -->
+        <section class="aboutContainer Container">
+            <!-- 
+            <div id="about" class="title">
+                <a href="#about" class="ContainerTitle nav-link">About Me</a>
+            </div> 
+            -->
+            <div class="aboutContent">
+
+                <div class=""><img class="myPhoto" src="assets/img/me4.JPG" alt="My photo"></div>
+
+                <div class="aboutMe">
+                    <h1 class="title aboutTitle">Hi, I'm Ismail</h1>
+                    <div class="aboutMeText">
+                        <pre>Shortly about me in a few quotes:<br><br>Programmer🧑‍💻: A machine that turns☕ coffee into code.<br>Computers are good at following instructions💻 but not at reading your mind.🧠<br>It’s not a bug🐛 — it’s an undocumented feature.😂👌</pre>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Work Experience #work -->
+        <section id="work" class="Container WorkContainer">
+            <!-- 
+            <div class="title">
+                <a href="#work" class="ContainerTitle nav-link">Work Experience</a>
+            </div>
+             -->
+            <div class="work">
+                <div class="workExperience1">
+                    <div class="workTitle">
+                        Smart Software Enterprise<br>
+                        <h2 class="workTitle">
+                            <b><i>Full-Stack Developer</i></b>
+                        </h2>
+                    </div>
+                    <div class="years">
+                        2021 Aug - 2020 Nov
+                    </div>
+                    <div class="imgWorkDiv"><img class="imgWork hover-animation" src="assets/img/sse.jpg" alt="Working Photo"></div>
+                    <div class="workText">
+                        <ul>
+                            <li>
+                                Created many web pages🌐, including admin panels🧑‍💻, based on <u><a href="https://laravel.ru/" class="educationMiniLinks">PHP Laravel Framework</a></u>
+                            </li>
+                            <li>
+                                Maintained created <u><a href="https://itvdn.com/ru/specialities/frontend-developer" class="educationMiniLinks">Front-End</a></u> pages till the end of the project👌
+                            </li>
+                            <li>
+                                Upgraded 📈 pages, included 🆕 new features, working with clients and team members
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="workExperience2">
+                    <div class="workTitle">
+                        Faktura UZ CRM<br>
+                        <h2 class="workTitle">
+                            <b><i>Back-End Developer + Intern</i></b>
+                        </h2>
+                    </div>
+                    <div class="years">
+                        2020 Jan - 2020 Jun
+                    </div>
+                    <div class="imgWorkDiv"><img class="imgWork hover-animation" src="assets/img/faktura.jpg" alt="Wortking Photo"></div>
+                    <div class="workText">
+                        <ul>
+                            <li>
+                                Mainly learned how to write code on Back-End side using <u><a href="https://metanit.com/sharp/tutorial/1.1.php" class="educationMiniLinks">C#</a></u>, where my love to <u><a href="https://metanit.com/sharp/tutorial/1.1.php" class="educationMiniLinks">C#</a></u>                                began😂
+                            </li>
+                            <li>
+                                Awesome Team taught me, how to think💡 in programming and <u><a href="https://www.geeksforgeeks.org/7-tips-to-write-clean-and-better-code-in-2020/" class="educationMiniLinks">write clean code</a></u>
+                            </li>
+                            <li>
+                                Learned how to reach clients🤔 deep thoughts about project
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Personal Projects #projects -->
+        <section id="projects" class="Container projects">
+
+            <!--
+            <div class="title">
+                <a href="#projects" class="ContainerTitle nav-link">Projects</a>
+            </div>
+            -->
+            <p class="projectsMiniTitle">Here are some projects i have done during 2021, and now I am really into start-ups!</p>
+
+            <div class="projectsAll">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/logistics.jpg" class="projectImg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Global Expert Logistics</h3>
+                            <p>This website was fully developed myself, and nowadays keeping up-to-date.</p>
+                            <a class="nav-link" href="https://global-expert-logistics.netlify.app">website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/portfoliorss.jpg" class="projectImg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>Portfolio for Photograph</h3>
+                            <p>Project, made for photographer with fully responsiblem, with theme changer, and of course with language changer.</p>
+                            <a class="nav-link" href="https://rolling-scopes-school.github.io/ismoil6ek-JSFEPRESCHOOL/portfolio/">website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="assets/img/projects.jpeg" class="projectImg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h2>Coming Soon...</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Education and Languages #educationAndLanguages -->
+        <section id="educationAndLanguages" class="Container WorkContainer">
+
+            <!-- education -->
+            <!--
+            <div class="title">
+                <a href="#educationAndLanguages" class="ContainerTitle nav-link">Education and Languages</a>
+            </div>
+            -->
+            <div class="educationDiv">
+                <div class="education">
+                    <a href="https://inha.uz/" style="display: block;">
+                        <div class="educationContainer1 hover-animation"></div>
+                    </a>
+
+                    <div class="divContainer">
+                        <h2>Inha University in Tashkent</h2>
+                        <div class="years">2020 - now</div>
+                        <p class="education-text">Inha is the best🔝 University in Tashkent in the sphere of IT, not because of its luxury, due to its strategy🤓. As a freshman, we got acknowladged about <u><a href="https://www.partech.nl/en/publications/2020/10/basic-principles-of-object-oriented-programming" class="educationMiniLinks">OOP princples</a></u>                            from scratch👌 on <u><a href="https://www.w3schools.com/cpp/cpp_intro.asp" class="educationMiniLinks">C++</a></u>, and on my second year of being student here in Inha, we are learning <u><a href="https://www.techopedia.com/definition/25133/application-programming-interface-api-java" class="educationMiniLinks">Application Programming in Java</a></u>.
+                            Expactations becoming True!💫</p>
+
+                    </div>
+                </div>
+                <div class="education">
+                    <a href="https://ictschool.uz/ru/homepage-ru/" style="display: block;">
+                        <div class="educationContainer2 hover-animation"></div>
+                    </a>
+                    <div class="divContainer">
+                        <h2>ICT school Tashkent, Uzbekistan</h2>
+                        <div class="years">2013 - 2020</div>
+                        <p class="education-text">The Muhammad al-Khwarizmi Specialized School🏫 is designed for in-depth study of Mathematics➗,<u><a href="https://undergrad.cs.umd.edu/what-computer-science" class="educationMiniLinks">Computer Science🖥️</a></u>, English and Physics.
+                            This educational system allows students to maximize their talents🤗 and abilities⚡ in IT sphere.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- languages -->
+            <div class="language-div">
+                <div class="flip-card-lang">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front language">
+                            Russian
+                        </div>
+                        <div class="flip-card-back back-side">
+                            Level B2
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-lang">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front language">
+                            English
+                        </div>
+                        <div class="flip-card-back back-side">
+                            Level B2 (Official IELTS 6.5)
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card-lang">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front language">
+                            Uzbek
+                        </div>
+                        <div class="flip-card-back back-side">
+                            Native User
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- code style and skills #codeskills -->
+        <section id="codeskills">
+            <!-- code style -->
+            <divclass="codeExample">
+                <div class="codeContainer">
+                    <!--
+                    <div class="title">
+                        <a href="#codeskills" class="ContainerTitle nav-link">Code and Skills</a>
+                    </div>
+                    -->
+                    <div class="innerContainer">
+                        <div class="codeElement codeText hover-animation">
+                            <pre>
+    <span class="darkblue">function</span> <span class="yellow">zeroFuel</span>(<span class="lightblue">distanceToPump</span>, <span class="lightblue">mpg</span>, <span class="lightblue">fuelLeft</span>) <span class="darkblue"></span>
+    {
+        <span class="purple">if</span> (<span class="lightblue">distanceToPump</span> > <span class="lightblue">fuelLeft</span> * <span class="lightblue">mpg</span>)
+            <span class="purple">return</span> <span class="darkblue">false</span>;
+        <span class="purple">else
+             return</span> <span class="darkblue">true</span>;
+    };</pre></div>
+                        <div class="videobg codeElement hover-animation">
+                            <video autoplay loop src="assets/code.mp4"></video>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!-- skills -->
+                <div class="skillsContainer">
+                    <div class="skillsElement">
+                        <div>
+                            <div class="u-center">
+                                <ul class="skills">
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">HTML5 CSS3 JS</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--95"></div>
+                                        </div>
+                                    </li>
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">PHP Laravel and Voyager</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--85"></div>
+                                        </div>
+                                    </li>
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">C#/C++/Java</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--75"></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillsElement">
+                        <div>
+                            <div class="u-center">
+                                <ul class="skills">
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">.Net Framework (Learning...)</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--20"></div>
+                                        </div>
+                                    </li>
+                                    <!-- End of .skill -->
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">SQL</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--75"></div>
+                                        </div>
+                                    </li>
+                                    <!-- End of .skill -->
+                                    <li class="skill navbar-links">
+                                        <h3 class="skill__type">Git</h3>
+                                        <div class="skill__outer-bar">
+                                            <div class="skill__inner-bar skill__inner-bar--80"></div>
+                                        </div>
+                                    </li>
+                                    <!-- End of .skill -->
+                                </ul>
+                                <!-- End of .skills -->
+                            </div>
+                            <!-- End of .u-center -->
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- contact me #contact -->
+        <section id="contact" class="Container contact">
+            <!-- 
+            <div class="title">
+                <a href="#contact" class="ContainerTitle nav-link">Contact me </a>
+            </div>
+             -->
+
+            <p class="projectsMiniTitle portfolioText">
+                Here Is My Original* Portfolio
+            </p>
+            <div>
+                <a href="https://ismoil6ek.uz" class="portfolioLink">ISMOIL6EK.UZ</a>
+            </div>
+
+
+            <p class="projectsMiniTitle portfolioText ">
+                And some social media🪐 links, check them out😉
+            </p>
+
+            <ul class="social-links ">
+                <li class="navbar-links ">
+                    <a href="https://instagram.com/ismoil6ek " class="instagram ">
+                        <img class="instagram " src="assets/img/icons/instagram.svg " alt="social icons ">
+                    </a>
+                </li>
+                <li class="navbar-links ">
+                    <a href="https://t.me/ismoil6ek " class="telegram ">
+                        <img class="telegram " src="assets/img/icons/telegram.svg " alt="social icons ">
+                    </a>
+                </li>
+                <li class="navbar-links ">
+                    <a href="https://discordapp.com/users/912682273625743372/ " class="discord ">
+                        <img class="discord " src="assets/img/icons/discord.svg " alt="social icons ">
+                    </a>
+                </li>
+                <li class="navbar-links ">
+                    <a href="https://www.linkedin.com/in/ismoilbek-ilkhomov-a006a9216/ " class="linkedin ">
+                        <img class="linkedin " src="assets/img/icons/linkedin.svg " alt="social icons ">
+                    </a>
+                </li>
+                <li class="navbar-links ">
+                    <a href="tel:+998946266898 " class="telephone ">
+                        <img class="telephone " src="assets/img/icons/telephone.svg " alt="social icons ">
+                    </a>
+                </li>
+                <li class="navbar-links ">
+                    <a href="mailto:ismoil6ek@gmail.com " class="mail ">
+                        <img class="mail " src="assets/img/icons/mail.svg " alt="social icons ">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- footer for links and a year -->
+    <footer>
+        <div class="footerIcon ">
+            <a class="footer " href="https://github.com/ismoil6ek/ "><img class="iconGithub " src="assets/img/icons/github.svg " alt="github icon "></a>
+        </div>
+        <div class="footerIcon "> <a class=" footer nav-link " href="# "> 2022 </a> </div>
+        <div class="footerIcon ">
+            <a class="footer " href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0 "><img class="iconRS " src="assets/img/icons/rs_school_js.svg " alt="github icon "></a>
+        </div>
+    </footer>
+
+    <!-- default javascript file connections -->
+    <script src="assets/scripts/script.js "></script>
+    <script src="assets/scripts/change.js "></script>
+
+</body>
+
+</html>
